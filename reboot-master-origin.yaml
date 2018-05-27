@@ -1,5 +1,5 @@
 ---
-- hosts: masters
+- hosts: masters:!master0
   gather_facts: no
   become: yes
   become_method: sudo
